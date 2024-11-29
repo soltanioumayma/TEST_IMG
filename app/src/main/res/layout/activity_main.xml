@@ -87,13 +87,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Homme" />
-        </RadioGroup>
-
         <RadioButton
             android:id="@+id/rdbFemme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Femme" />
+        </RadioGroup>
+
     </LinearLayout>
 
     <LinearLayout
@@ -120,6 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:textStyle="bold"
             android:hint="Votre IMG est : " />
 
         <TextView
@@ -127,6 +128,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textStyle="bold"
             android:hint="Interprétation :" />
     </LinearLayout>
 </LinearLayout>

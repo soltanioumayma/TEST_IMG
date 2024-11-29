@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     private String interpIMG(double IMG, int sexe) {
         if (sexe == 0) {
             if (IMG < 25) {
